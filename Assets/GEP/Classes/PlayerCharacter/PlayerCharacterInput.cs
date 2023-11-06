@@ -8,6 +8,7 @@ public class PlayerCharacterInput : MonoBehaviour
     [Header("Character Input Values")]
     public Vector2 move;
     public Vector2 look;
+    public Vector2 mousePos;
     public bool jump;
     public bool sprint;
 
@@ -36,6 +37,11 @@ public class PlayerCharacterInput : MonoBehaviour
         }
     }
 
+    public void OnMouseDrag(InputValue value)
+    {
+        MousePos(value.Get<Vector2>());
+    }
+
     public void OnJump(InputValue value)
     {
         JumpInput(value.isPressed);
@@ -56,6 +62,11 @@ public class PlayerCharacterInput : MonoBehaviour
         look = newLookDirection;
     }
 
+    public void MousePos(Vector2 newMousePosition)
+    {
+        mousePos = newMousePosition;
+    }
+
     public void JumpInput(bool newJumpState)
     {
         jump = newJumpState;
@@ -68,7 +79,7 @@ public class PlayerCharacterInput : MonoBehaviour
 
     private void OnApplicationFocus(bool hasFocus)
     {
-        SetCursorState(cursorLocked);
+        SetCursorState(!cursorLocked);
     }
 
     private void SetCursorState(bool newState)
