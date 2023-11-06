@@ -18,6 +18,11 @@ public class PlayerCharacterInput : MonoBehaviour
     public bool cursorLocked = true;
     public bool cursorInputForLook = true;
 
+    void Start()
+    {
+        Cursor.visible = true;
+    }
+
     public void OnMove(InputValue value)
     {
         MoveInput(value.Get<Vector2>());
