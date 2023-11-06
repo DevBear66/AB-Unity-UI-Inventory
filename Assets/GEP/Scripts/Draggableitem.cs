@@ -3,17 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
-using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 public class Draggableitem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    Transform parentAfterDrag;
+    public Image image;
+    
+    [HideInInspector] public Transform parentAfterDrag;
 
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("Begin Drag");
         parentAfterDrag = transform.parent;
         transform.SetParent(transform.root);
+        transform.SetAsLastSibling();
+        image.raycastTarget = false;
+
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -26,5 +31,7 @@ public class Draggableitem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     {
         Debug.Log("End Drag");
         transform.SetParent(parentAfterDrag);
+        image.raycastTarget = true;
+
     }
 }
