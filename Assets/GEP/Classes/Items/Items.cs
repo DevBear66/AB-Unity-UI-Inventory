@@ -11,7 +11,7 @@ public class Items : ScriptableObject
 
     public string itemName;
 
-    [TextArea(3, 3)] public string description;
+    [TextArea(3, 10)] public string description;
 
     public enum Types
     {
@@ -37,6 +37,6 @@ public class Items : ScriptableObject
     public Types type;
     public Rarity rarity;
     public int maxStack;
-    public float weight;
+    public int weight;
     public int basevalue;
 }

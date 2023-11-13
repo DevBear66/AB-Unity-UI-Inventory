@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 087d138873c71a74ea4995ced9c00644, type: 3}
+  m_Name: SniperRifle
+  m_EditorClassIdentifier: 
+  itemID: 11
+  itemName: SniperRifle
+  description: Become the unseen force with the Phantom Precision Sniper Rifle a
+    weapon that turns distant threats into mere shadows. This high-powered instrument
+    of precision is the choice of the silent and patient guaranteeing a lethal impact
+    with each carefully calculated shot.
+  prefab: {fileID: 0}
+  icon: {fileID: 0}
+  type: 2
+  rarity: 3
+  maxStack: 1
+  weight: 35
+  basevalue: 0

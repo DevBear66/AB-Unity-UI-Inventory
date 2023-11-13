@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 087d138873c71a74ea4995ced9c00644, type: 3}
+  m_Name: Bayonet
+  m_EditorClassIdentifier: 
+  itemID: 5
+  itemName: Bayonet
+  description: Feel the thunderous force of the Thunderclap Bayonet as it merges
+    the worlds of melee and ranged combat. This versatile attachment turns any rifle
+    into a close-quarters powerhouse ensuring that no adversary is safe from the
+    electrifying clash of metal.
+  prefab: {fileID: 0}
+  icon: {fileID: 0}
+  type: 0
+  rarity: 0
+  maxStack: 3
+  weight: 10
+  basevalue: 0

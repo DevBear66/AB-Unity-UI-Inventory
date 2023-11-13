@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 087d138873c71a74ea4995ced9c00644, type: 3}
+  m_Name: FruitApple
+  m_EditorClassIdentifier: 
+  itemID: 20
+  itemName: FruitApple
+  description: Savour the crisp refreshment of Arboreal Ambrosia an apple that embodies
+    the vitality of nature. Packed with energy and flavour this fruit is a source
+    of immediate sustenance providing a burst of strength to fuel your journey.
+  prefab: {fileID: 0}
+  icon: {fileID: 0}
+  type: 4
+  rarity: 2
+  maxStack: 5
+  weight: 1
+  basevalue: 0

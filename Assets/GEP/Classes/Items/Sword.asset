@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 087d138873c71a74ea4995ced9c00644, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: 
-  itemID: 0
-  itemName: 
-  description: 
-  prefab: {fileID: 0}
-  icon: {fileID: 0}
+  itemID: 2
+  itemName: Sword
+  description: Ignite the fires of battle with the Phoenix Reckoning Blade a masterful
+    fusion of craftsmanship and warfare. With each swing this sword tells a tale
+    of resilience and triumph making it the weapon of choice for those who crave
+    the glory of the battlefield.
+  prefab: {fileID: 776283221353108907, guid: af530038250da2e4d894c224dba8b91e, type: 3}
+  icon: {fileID: 2800000, guid: 9dd1f3dedc03b3440a30b011c38d001f, type: 3}
   type: 2
-  rarity: 0
+  rarity: 1
   maxStack: 1
-  weight: 10
+  weight: 30
   basevalue: 0

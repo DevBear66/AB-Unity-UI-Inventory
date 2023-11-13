@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 087d138873c71a74ea4995ced9c00644, type: 3}
+  m_Name: SMG
+  m_EditorClassIdentifier: 
+  itemID: 8
+  itemName: SMG
+  description: Unleash the storm with the Tempest Subjugator SMG a rapid-fire torrent
+    of destruction that commands the battlefield. With its high rate of fire and
+    nimble design this weapon is the embodiment of chaos perfect for those who thrive
+    in the midst of mayhem.
+  prefab: {fileID: 0}
+  icon: {fileID: 0}
+  type: 2
+  rarity: 2
+  maxStack: 1
+  weight: 30
+  basevalue: 0

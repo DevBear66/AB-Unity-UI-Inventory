@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 087d138873c71a74ea4995ced9c00644, type: 3}
+  m_Name: MedicineLarge
+  m_EditorClassIdentifier: 
+  itemID: 19
+  itemName: MedicineLarge
+  description: Harness the Panacea of Resilience Large Medicine a remedy that transcends
+    affliction and restores warriors to their peak. In the face of adversity this
+    potent elixir becomes a beacon of hope ensuring that you rise stronger from every
+    trial.
+  prefab: {fileID: 0}
+  icon: {fileID: 0}
+  type: 4
+  rarity: 2
+  maxStack: 2
+  weight: 5
+  basevalue: 0

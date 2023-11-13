@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 087d138873c71a74ea4995ced9c00644, type: 3}
+  m_Name: Zweihander
+  m_EditorClassIdentifier: 
+  itemID: 3
+  itemName: Zweihander
+  description: Unleash the colossal power of the Titan's Fury Zweihander a weapon
+    that embodies sheer might and intimidation. Wielded by warriors of unparalleled
+    strength this behemoth on the battlefield strikes fear into the hearts of adversaries
+    and secures the path to victory.
+  prefab: {fileID: 0}
+  icon: {fileID: 0}
+  type: 2
+  rarity: 3
+  maxStack: 1
+  weight: 80
+  basevalue: 0
